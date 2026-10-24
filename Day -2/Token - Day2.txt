@@ -1,0 +1,34 @@
+Token - Small unit of program
+
+program has divide into parts
+
+types:
+Identifier - name used of identify program - variables
+a= 10
+
+variable: container to hold a value.
+It can contain uppercase,lowercase,under score,numbers
+uppercase,lowercase,underscore to start the variable
+special characters should not contain in variable Except @
+variable name can't start with a number
+Don't use keywords as variable
+Case sensitive
+
+
+operator - special symbol to perform operations
+literals - fixed values are written
+keywords - Reserved words with fixed, predefined meanings
+
+
+
+punctation - the structural symbols like : and ()
+
+Statement - A line of code is called as statement
+
+Comments:
+sinle line represented as #(Hash)
+Multi line represented as 
+	'''
+	multi line
+	'''
+

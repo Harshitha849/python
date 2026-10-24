@@ -1,0 +1,61 @@
+Features of Python:
+	1. Free and Open Source/
+		Python language is available free of cost at the official website. Since it is open-source, this means that source code is also available to 		the public. So you can download it, use it as well as share it. 
+
+	2. Easy to code
+		Python has a simple and readable syntax, making it easier to learn and write than many other programming languages. Its concise code 			structure enables faster development and makes it a highly developer-friendly language.
+
+	3. Easy to Read
+		Python has a clean and straightforward syntax that makes code easy to read and understand. It uses indentation to define code blocks instead 		of semicolons or braces, resulting in more organized and readable programs.
+
+	4. Object-Oriented Language
+		One of the key features of Python is Object-Oriented programming as it supports concepts of classes, object encapsulation, etc. 
+	5. GUI Programming Support
+		Graphical User interfaces can be made using a module such as PyQt5, PyQt4, wxPython, or Tk in Python. PyQt5 is the most popular option for 		creating graphical apps with Python.
+
+	6. High-Level Language
+		Python is a high-level language that abstracts low-level system details. It automatically manages memory, allowing developers to focus on 		solving problems rather than handling hardware-specific operations.
+
+	7. Large Community Support
+		Python has a large and active community that provides extensive support through forums, tutorials, and discussion platforms such as Stack 		Overflow. This strong community ecosystem makes it easier to find solutions, learn best practices, and resolve issues quickly.
+
+	8. Easy to Debug
+		Python provides clear and informative error messages, making it easier to identify and fix issues. Its readable syntax also helps developers 		quickly understand and debug code.
+
+	9. Python is an Integrated language
+		Python is also an Integrated language because we can easily integrate Python with other languages like C, C++, etc. 
+
+	10. Interpreted Language: 
+		Python is an Interpreted Language because code is executed line by line at a time, like other languages C, C++, Java, etc. there is no need 		to compile Python code this makes it easier to debug our code. The source code of Python is converted into an immediate form called 			bytecode.
+
+	11. Large Standard Library 
+		Python has a large standard library that provides a rich set of modules and functions so you do not have to write your own code for every 		single thing. There are many libraries present in Python such as regular expressions, unit-testing, web browsers, etc.
+
+	12. Dynamically Typed Language
+		Python is a dynamically-typed language. That means the type (for example-int, float, or str) for a variable is decided at run time not in 		advance because of this feature we don't need to specify the type of variable.
+
+	13. Frontend and backend development
+		With a new project py script, you can run and write Python codes in HTML with the help of some simple tags <py-script>, <py-env>, etc. This 		will help you do frontend development work in Python like javascript. Backend is the strong forte of Python it's extensively used for this 		work cause of its frameworks like Django and Flask.
+
+	14. Allocating Memory Dynamically
+		In Python, the variable data type does not need to be specified. The memory is automatically allocated to a variable at runtime when it is 		given a value. Developers do not need to write int y = 18 if the integer value 15 is set to y. You may just type y=18.
+
+	15.Indentation-Based Syntax: Python uses indentation to define code blocks instead of curly braces {}.
+
+	16.Everything Is an Object: In Python, integers, strings, functions, and classes are objects.
+
+	17.Multiple Inheritance: A class can inherit features from more than one parent class.
+
+	18.Duck Typing: Python focuses on what an object can do rather than its declared type.
+
+	19.List Comprehension: We can create a new list in a single line of code.
+
+	20.Automatic Memory Management: Python manages memory allocation and garbage collection automatically.
+
+	21.Interactive Mode: We can execute Python statements one at a time and see the results immediately.
+
+	22.Multiple Assignment: We can assign values to multiple variables in a single statement.
+
+	23.Generators and Lazy Evaluation: Generators produce values one at a time, helping save memory when processing large data.
+
+	24.Metaprogramming: Python allows programs to inspect and modify classes, functions, and other program structures at runtime.

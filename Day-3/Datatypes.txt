@@ -1,0 +1,31 @@
+python is Dynamically typed language.
+Datatypes:
+	To store value in variable.
+
+Numerical data type:
+	int: to store integer value
+	float: to store float value
+	complex: To store complex value
+		ex: c= 2+5j
+
+Sequential Data Type:
+	indexing and ordered data type.
+	String: collection of characters, closed in single quotation and double quotation.
+		string is sequential order
+		Real time used in what's app bio, Instagram names
+	List: is declared as square braces []
+		it is ordered, collection of elements, consists of any data, allows duplicates in list, list  is 		mutable data.
+		Real time used in Instagram post, facebook post.	
+	Mutable: modifiy in the same memory, memory id not changed.
+	immutable: modify in same memory, memory is changed.
+	Tuple: it is immutable, using less memory, can be changed, same memory location, once declared can't able 	to modify, using with (), duplicates allow, same like as list but list is mutable and tuple is imutable.
+	real time ex is google maps, it has fixed values.
+Mapping Data type:
+	set: collection of data, declared in {}, inordered, duplicated are not allowed, mutable.
+	Real time ex is Instagram followers, it is un ordered.
+	Dictionary : it is key-value pair, collection of data, ordered, modify, deleted, it is enclosed with "{}".
+			{l:"one"}
+Boolen Data type:
+	when ever it is two condition used this data type, immutable, getting true or false.
+none Data type: used when want to specify data but doesn't know data type.
+	
