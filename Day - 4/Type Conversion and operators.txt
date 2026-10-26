@@ -1,0 +1,50 @@
+Type Conversion:
+	1)Integer can be converted into Sting, Boolean, float, Complex
+	2)Float can be converted into int, Complex, Sting, Boolean
+	3)Complex can be converted into String, Boolean
+	4)String having numbers can be converted into int, float, complex, list, tuple, set, dict, Boolean
+	5)List can be converted into String, tuple, set, Boolean
+	6)Tuple can be converted into String, list, set, Boolean
+	7)Set can be converted into list, tuple, String, Boolean
+	8)Dictionary can be converted into String, list, tuple set display only keys, Boolean
+	9) Boolean can be converted into int, float, complex, Sting
+
+Operations:
+1)Arithmetical operators:
+	Addition - +
+	subtraction _ -
+	Multiplication - *
+	Division - /
+	Floor Division - //
+	Modulus - % - it will display remainder
+	Exponential or power - ** 
+
+2)comparison operators:
+	greater than - >
+	less than - <
+	grater than or equal to - >=
+	less than or equal to - <=
+	double equal to - ==
+	not equal to - !=
+
+3)Assignment operators:
+	add assign - +=
+	sub assign - -=
+	mul assign - *=
+	div assign - /=
+
+4)Logical operators:
+	and - two statements should be true
+	or - any statement should be true
+	not - true means false, false means true
+
+5)Membership operator:
+	used for collection of elements
+	used with list, tuple, set, dict
+	in - present inside
+	not in - not present inside
+
+6)Identity operator: 
+	is - check memory location if it same
+	is not - if it is not same
+	
