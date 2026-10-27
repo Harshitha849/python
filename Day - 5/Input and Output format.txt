@@ -1,0 +1,47 @@
+7)Bitwise Operator:
+	and - & - 
+	or - |
+	Exclusive or - ^
+	not - ~ 
+	left shift - << - means add two 0's in left side
+	right shift - >> - means remove two values in right
+
+Taking Input:
+	Str: a = input("Enter a string: ")
+	Integer: a = int(input())
+	Float: a = float(input())
+	List: a = list(input())	
+	when giving input two digits use split operator
+	ex: ' 12 23 34 56 85 445'.split(' ')
+	use: a = input().split()
+	list of int:  a = list(map(int, input().split())
+	list of float:  a = list(map(float, input().split())
+
+	tuple of str: tuple(input().split())
+	tuple of int: tuple(map(int, input().split()))
+	tuple of float:tuple(map(float, input().split()))	
+
+	set of str: set(input().split())
+	set of int: set(map(int, input().split()))
+	set of float: set(map(float, input().split()))
+
+Taking Multiple Values:
+	For Integer: a,b,c = list(map(int, input().split())
+	For String: email, password = input().split()
+
+Eval Function:
+	with help of eval function we can use any datatype.
+	a = eval(input())
+
+Output Format:
+	comma separation: print(a,b,c)
+	print("a=", a, "b=", b, "c=", c)
+	print(f'a={a} b={b} c={c}')
+	without space: 	print("a=", a, "b=", b, "c=", c, sep='')
+			print("a=", a, "b=", b, "c=", c, sep='-')
+	with end: 	print("a=", a, "b=", b, "c=", c, end='\n\n')
+			print("a=", a, "b=", b, "c=", c, end='@')
+	print('a=%d b=%f c=%s'%(a,b,c))
+	print('a=%d b=%.2f c=%s'%(a,b,c))
+	print('a={} b={} c={}'.format(a,b,c))
+	print('a={} b={} c={}'.format(b,c,a))
