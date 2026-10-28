@@ -1,0 +1,103 @@
+OPERATIONS OF STRING:
+	1)Concatenation: combine two string, use '+'  
+	s = 'python' 
+	t = 'Programming'              
+	ex: s+t
+	    #'PythonProgramming'
+
+	2)Repetition: repeating how many times, use '*'
+	ex: s*3
+	    # 'PythonPythonPython'
+
+	3)Indexing: accessing the specific character.
+		  012345   (positive)
+	     s =  Python
+		  654321  (negative)
+		ex: s[2] = t
+	 	   s[-2] = o
+
+	4)slicing: if want any words or position to print, use to get access using start, end, step
+	  s[Start:end+1:step value]
+	  step value = how we are iterating from one index to another
+
+	5)Membership: using the in and not in
+	ex: s = 'python java'
+		'python' in s
+		#True
+		'java' not in s
+		#False
+length: provides length of string
+	len()
+Numerical code: to get numerical code
+		Ord()
+character value: it will give character value.
+		Chr()
+max() : give the character which is having maximum ascii value
+
+min(): give the character which is having minimum ascii value
+
+sorted(): sort the characters 
+
+upper(): change into capital letters  ex: s.upper()
+
+lower(): change into lower case letters ex: s.lower()
+
+swapcase(): change into upper-to-lower, lower-to-upper
+
+title(): convert all words first letter into capital letters.
+
+capitalize(): convert first letter in capital in the entire string.
+
+STRING FORMATTING:
+
+center(): it can print the word in center.
+		ex: s.center(40,'-')
+		#'-----------------python-----------------'
+
+ljust(): it can print the word in left side.
+		ex: s.ljust(40,'*')
+		#'python**********************************'
+
+rjust(): it can print the word in right side.
+		ex: s.rjust(40,'*')
+		#'**********************************python'
+
+zfill(): fitting the length with o
+		ex: '123'.zfill(5)
+		#'00123'
+	    
+SEARCHING METHOD:
+
+find(): find the position of letter in string.
+		ex: s='python'
+		    s.find('y')
+		    #1
+
+rfind(): it is finding from the right side.
+		ex: s.rfind()
+
+index(): it giving the position of letter.
+		ex: s.index()
+
+count(): it print count of letters.
+		ex: s.count()
+
+strip(): it used to removing the spaces.
+		ex: s.strip()
+
+rstrip(): remove the space in right side.
+		ex: s.rstrip()
+
+lstrip(): remove the space in the left side.
+		ex: s.lstrip()
+
+replace(): replace with some another character.
+		s = 'python java flask mysql fastapi'
+		ex: s.replace('a','*')
+		#'python j*v* fl*sk mysql f*st*pi'
+
+Traslate: translate the multiple positions at once.
+		s = 'python java flask mysql fastapi'
+		ex: s.translate(s.maketrans('apkqs','12345'))
+		#'2ython j1v1 fl153 my54l f15t12i'
+
