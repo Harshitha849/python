@@ -1,0 +1,90 @@
+String Testing Methods:
+
+	startswith(): check whether the string is starting with 
+	endswith(): check whether the string is ending with
+	islower(): check string is in lower case
+	isupper(): check string is in upper case
+	isalpha(): check whether it is containing only alphabets
+	isalnum(): check whether it is containing the alphabets and numbers
+	istitle(): check whether it is title, tile means first letter starts with capital
+	isspace(): check whether space 
+	isidentifier(): check whether it is a identifier
+	isdecimal(): check whether it is numbers and the decimals
+	isdigit(): check whether it is digits
+	isnumeric(): check whether it is containing the numericals
+
+split(): split return the values into list format.
+rsplit(): split from right side onwards.
+splitlines(): when give input in different lines in convert into list.
+join(): combine list into string.
+partition(): separate the right and left.
+encode(): converting them data into bites.
+decode(): converting them bits to normal format.
+
+
+List Properties:
+
+	collection of elements enclosed with []
+	Mutuable change in same memory location
+	Ordered
+	Duplicates are allowed
+	hyterogenenous - all data types are allowed.
+	Dymanic
+
+List Operations:
+
+	concatenation - +: ex: [1,2,3] + [4,5,6]
+			      #[1, 2, 3, 4, 5, 6] 
+
+	Repetation - * : ex: [1,2,3] * 5
+			    #[1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
+
+	Indexing: l = ['python', 'java', 'c', 'flask', 'fastapi', 'mysql']
+		  ex: l[0]
+		     #'python'
+			l[-1]
+			#'mysql'
+
+	Slicing:   ex: l[:3]
+		#['python', 'java', 'c']
+		l[:-3]
+		#['python', 'java', 'c']
+		l[2:5]
+		#['c', 'flask', 'fastapi']
+		l[1::2]
+		#['java', 'flask', 'mysql']
+
+	MemberShip: ex: 'mysql' in l
+			#True
+			'html' not in l
+			#True
+			'css' in l
+			#False
+
+List Methods:
+
+	length(): l = ['python', 'java', 'c', 'flask', 'fastapi', 'mysql']
+			ex: len(l)
+				#6
+	sorted(): ex: sorted(l)
+ 			#['c', 'fastapi', 'flask', 'java', 'mysql', 'python']
+	max(): ex: max(l)
+		    #'python'
+	min(): ex: min(l)
+		   #'c'
+
+''''List is modified in same memory location.'''
+
+append(): adding single elements at the end of the list in same memory location.
+	l.append('a')
+	#['python', 'html', 'c++', 'css', 'fastapi', 'mysql', 'a']
+
+extend(): adding multiple elements at the end of the list
+	l.extend([1,2,3,4,5])
+	#['python', 'html', 'c++', 'css', 'fastapi', 'mysql', 'a', 'b', 'c', 1, 2, 3, 4, 5]
+
+insert(): insert the elements in which position of list
+	l.insert(1,'flask')
+	#['python', 'flask', 'html', 'c++', 'css', 'fastapi', 'mysql', 'a', 'b', 'c', 1, 2, 3, 4, 5]
+
+
