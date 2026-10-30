@@ -1,0 +1,77 @@
+List Methods:
+
+pop(): deleting the elements in the list, perform using the index number.
+	ex: l.pop()
+remove(): delete the element in the list, with providing the value.
+	ex: l.remove(37)
+clear(): clearing the entire list.
+	ex: l.clear()
+count(): count how many elements are there in the list, for given number.
+	ex: l.count(67)
+index(): print the index of the given number.
+	ex: l.index(37)
+sorted(): sort the list.
+	ex: sorted()
+sort(): list to be sorted.
+	ex: l.sort()
+reverse(): it can reverse the list.
+	ex: l.reverse()
+copy(): copy the list.
+	ex: b = a.copy()
+
+any(): the elements in the list, any of them are true it return true.
+all(): The elements in the list, all of them are true it will return true otherwise false.
+
+
+Tuple:
+	Tuple is collation of elements enclosed with ()
+	Tuple is immutuable, ordered, duplicates are allowed, heterogeneous and fixed.
+tuple doesn't allow the add and delete the elements.
+in case, there is a mutuable data types in the list, that can be change inside. 
+
+Tuple Operations:
+
+a = (1,2,3,4,5)
+b = (7,8,9)
+concatenation: ex: a+b
+		#(1, 2, 3, 4, 5, 7, 8, 9)
+Repetation: ex: a*2
+		#(1, 2, 3, 4, 5, 1, 2, 3, 4, 5)
+Indexing: ex: t
+(1, 1.1, 'dsdf', [1, 2, 3, 1], {1, 2, 3}, (1, 2, 3, 4), {1: 2, 3: 4}, False, True)
+			t[2]
+			#'dsdf'
+Slicing: ex: t[3:6]
+	     #([1, 2, 3, 1], {1, 2, 3}, (1, 2, 3, 4))
+MemberShip : ex: l in t
+		#False
+		10 not in t
+		#True
+
+Tuple Methods:
+
+len(): length of tuple.
+max(): max element in tuple.
+min():  min element in tuple.
+count(): count of element in tuple - t.count()
+sorted(): sort the elements in tuple.
+index(): index of given element.
+any(): in the tuple any element true it return true
+all(): in the tuple all the elements are true it return true otherwise false
+sum(): sum of all elements in the tuple.
+
+
+set:
+	collection of elements is enclosed with {}.
+	it is unordered, mutable, duplicates are not allowed, unique elements, heterogeneous, dynamically sized.
+
+
+set operations:
+
+Union - | : combine the sets and delete the duplicates.
+insertion - & : common elements.
+sematic difference - ^: display the different values.
+Diff - -: diff of two tuples.
+disjoint(): no common elements.
+issubset(): given element it subset are not.
+issuperset(): check whether the given elements are superset or not.
