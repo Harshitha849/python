@@ -1,0 +1,69 @@
+Set Methods:
+	len(): how many elements in the set.
+	sorted(): sort elements in order.
+	max(): max element to set
+	min(): min element to set.
+	sum(): sum of all elements.
+	any(): any element is true.
+	all(): all elements is true.
+
+add(): adding one element to the set.
+	ex: s.add(10)
+update(): adding multiple elements to the set.
+	ex: s.update({10,20,30})
+pop(): delete some random element.
+	ex: s.pop()
+remove(): deleting the specific element.
+	ex: s.remove(40)
+discard(): deleting the specific element in set.
+	ex: s.discard(50)
+
+remove() method when the number not in set, when removing it, it get error.
+discard() method doesn't get error.
+
+clear(): clear the entire set.
+	ex: s.clear()
+copy(): copy elements from set, after adding elements to set it can't add elements to the copied set.
+
+Dictionary: 
+
+	Dict is mutuable, dynamically typed, ordered, hyterogenous, unique keys.
+	keys must be immutuable.
+
+accessing the elements dict - d[value] -> d[2]
+accessing the elements are present and not-present in dict: s.get()
+
+MemberShip operation is only work with values.
+
+update the values in dict: d[3] = 23
+
+add the values in dict: d[13] = 100
+
+adding the multiple values in dict:  d.update()
+					ex: d.update({15:500, 16:600})
+pop(): delete the element.
+del: delete the particular position ex: del d[5]
+clear(): delete the entire dict.
+
+Methods:
+keys(): accessing the all keys.
+values(): accessing the all values.
+items(): accessing the all items.
+len(): len of dict.
+sorted(): elements are sorted in dict.
+max(): max element in dict.
+min(): min element in dict.
+
+dict.fromkeys(["a", "b", "c", "d", "e", 0]   -> for all keys assigning one value
+setdefault() -> assign the values in the dict.
+EX: d.setdefault('k', 1)
+    #1
+    d
+    #{'a': 0, 'b': 0, 'c': 0, 'd': 0, 'e': 0, 'h': None, 'k': 1}
+
+
+Frozenset:
+	
+	frozenset is one of the datatype. it can't can be done the adding and updating the elements.
+
+
